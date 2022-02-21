@@ -9,6 +9,6 @@ jobs:
       - uses: HugoCL/aws-git-trending-action@main
         with:
           quantity: 1
-          included_labels: "[ bug ]"
+          included-labels: "[ bug ]"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
     timeout-minutes: 20
